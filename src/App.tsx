@@ -1,9 +1,11 @@
 import './App.css';
-import TodoListPractise from './components/todoList/TodoListPractise';
+import Users from './components/api-integrate/Users';
+import TodoListPractise from './components/todo-list/TodoListPractise';
 
 function App() {
   return (
     <>
+      <Users />
       <TodoListPractise/>
     </>
   );
