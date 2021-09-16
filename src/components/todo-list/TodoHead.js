@@ -1,6 +1,5 @@
-import React from 'react';
 import styled from 'styled-components';
-import { useTodoState } from '../../TodoContext';
+import { useTodoState } from '../../contexts/todo-list/TodoContext';
 
 const TodoHeadBlock = styled.div`
     padding: 48px 32px 35px;

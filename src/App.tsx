@@ -1,11 +1,13 @@
-import './App.css';
 import Users from './components/api-integrate/Users';
 import TodoListPractise from './components/todo-list/TodoListPractise';
+import { UsersProvider } from './contexts/api-integrate/UsersContext';
 
 function App() {
   return (
     <>
-      <Users />
+      <UsersProvider>
+        <Users />
+      </UsersProvider>
       <TodoListPractise/>
     </>
   );

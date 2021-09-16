@@ -1,6 +1,5 @@
-import React from 'react';
 import { createGlobalStyle } from 'styled-components';
-import { TodoProvider } from '../../TodoContext';
+import { TodoProvider } from '../../contexts/todo-list/TodoContext';
 import TodoCreate from './TodoCreate';
 import TodoHead from './TodoHead.js';
 import TodoList from './TodoList.js';

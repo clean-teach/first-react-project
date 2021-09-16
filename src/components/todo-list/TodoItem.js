@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import {MdDone, MdDelete} from 'react-icons/md'
-import { useTodoDispatch } from '../../TodoContext';
+import { useTodoDispatch } from '../../contexts/todo-list/TodoContext';
 
 // type TodoItemProps = {
 //     id: string;

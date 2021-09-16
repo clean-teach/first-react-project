@@ -1,6 +1,5 @@
-import React from 'react';
 import styled from 'styled-components';
-import { useTodoState } from '../../TodoContext.js';
+import { useTodoState } from '../../contexts/todo-list/TodoContext.js';
 import TodoItem from './TodoItem.js';
 
 const TodoListBlock = styled.div`
