@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-function Home({history}) {
+function Home({history, match}) {
   const goBack = () => {
     history.goBack();
   };
@@ -9,6 +9,7 @@ function Home({history}) {
   };
   useEffect(() => {
     console.log(history);
+    console.log(match);
     const unblock = history.block('정말 떠나실건가요?');
     return () => {
       unblock();
